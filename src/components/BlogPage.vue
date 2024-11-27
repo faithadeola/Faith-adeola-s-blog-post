@@ -9,19 +9,18 @@
         <p
           class="text-[#7F56D9] font-semibold hover:text-[#6941C6] transition-colors duration-200"
         >
-          Nigerian Politics Today
+          Our blog
         </p>
         <h1
           class="text-[36px] leading-[44px] lg:text-[48px] font-semibold text-[#101828] hover:text-[#000] transition-colors duration-200"
         >
-          Latest Political Updates
+        Stories and interviews
         </h1>
       </div>
       <p
         class="text-[#667085] text-[18px] lg:text-xl w-full lg:w-[768px] text-center transition-colors duration-200 hover:text-[#4B5563]"
       >
-        Subscribe to get the latest updates on Nigerian politics, government
-        policies, and electoral news.
+      Subscribe to learn about new product features, the latest in technology, solutions, and updates.
       </p>
     </div>
     <div
@@ -31,8 +30,6 @@
         <input
           class="border w-full border-[#D0D5DD] py-3 pl-4 pr-[14px] rounded-lg transition-all duration-200 focus:ring-2 focus:ring-[#7F56D9] focus:border-transparent hover:border-[#7F56D9]"
           type="text"
-          @input="emailInputValue"
-          v-model="email"
           placeholder="Enter your email"
         />
         <p
@@ -41,7 +38,7 @@
           We care about your data in our
           <a
             class="underline leading-5 hover:text-[#7F56D9] transition-colors duration-200"
-            href="/"
+            href="../assets/asset4.png"
             >privacy policy</a
           >
         </p>
@@ -60,7 +57,7 @@
       <h2
         class="font-semibold text-[24px] text-[#101828] transition-colors duration-200 hover:text-[#000]"
       >
-        Featured Stories
+      Recent blog posts
       </h2>
       <div class="flex flex-col xl:flex-row gap-12 justify-between">
         <!-- Main Featured Post -->
@@ -69,48 +66,43 @@
         >
           <img
             class="w-full h-[200px] md:h-[228px] object-cover rounded-lg transition-transform duration-300 hover:transform hover:scale-105"
-            src="../assets/presentation.png"
+            src="../assets/asset1.png"
             alt="Presidential Address"
           />
           <div class="flex flex-col gap-6">
             <div class="flex flex-col gap-3">
               <small class="font-semibold text-[#6941C6]"
-                >Oluwaseun Adeleke • 20 Jan 2024</small
+                >Olivia Rhye • 20 Jan 2022</small
               >
               <div class="flex justify-between items-center">
                 <h2
                   class="text-[#101828] font-semibold text-xl xl:text-2xl transition-colors duration-200 hover:text-[#7F56D9]"
                 >
-                  President's Economic Reform Package
+                UX review presentations
                 </h2>
-                <img
-                  class="transition-transform duration-200 hover:rotate-180"
-                  src="../assets/wrap.png"
-                  alt="wrap-img"
-                />
+            
               </div>
               <p
                 class="text-[#667085] transition-colors duration-200 hover:text-[#4B5563]"
               >
-                Analysis of the new economic policies and their potential impact
-                on Nigerian markets
+                How do you create compelling presentations that wow your colleagues and impress your managers?
               </p>
             </div>
             <div class="flex items-center gap-2">
               <button
                 class="bg-[#F9F5FF] text-[#6941C6] text-[14px] font-medium rounded-2xl py-[2px] px-[10px] transition-all duration-200 hover:bg-[#7F56D9] hover:text-white"
               >
-                Economy
+                Design
               </button>
               <button
                 class="bg-[#EEF4FF] text-[#3538CD] text-[14px] font-medium rounded-2xl py-[2px] px-[10px] transition-all duration-200 hover:bg-[#3538CD] hover:text-white"
               >
-                Policy
+                Research
               </button>
               <button
                 class="bg-[#FDF2FA] text-[#C11574] rounded-2xl text-[14px] font-medium py-[2px] px-[10px] transition-all duration-200 hover:bg-[#C11574] hover:text-white"
               >
-                Reform
+                Presentation
               </button>
             </div>
           </div>
@@ -124,43 +116,42 @@
           >
             <img
               class="xl:w-[48%] h-[200px] object-cover rounded-lg transition-transform duration-300 hover:transform hover:scale-105"
-              src="../assets/linear.png"
-              alt="Electoral Reform"
+              src="../assets/asset2.png"
+              alt="Migrating to Linear 101"
             />
             <div class="flex flex-col gap-6">
               <div class="flex flex-col gap-3">
                 <small class="font-semibold text-[#6941C6]"
-                  >Chioma Okonkwo • 19 Jan 2024</small
+                  >Phoenix Baker • 19 Jan 2022</small
                 >
                 <div class="flex items-center justify-between">
                   <h2
                     class="text-[#101828] font-semibold text-xl xl:text-2xl transition-colors duration-200 hover:text-[#7F56D9]"
                   >
-                    Electoral Reform Bill Progress
+                  Migrating to Linear 101
                   </h2>
                   <img
-                    class="md:hidden transition-transform duration-200 hover:rotate-180"
-                    src="../assets/wrap.png"
+                    class="md:hidden transition-transform duration-200 "
+                    src="../assets/asset4.png"
                     alt="wrap image"
                   />
                 </div>
                 <p
                   class="text-[#667085] transition-colors duration-200 hover:text-[#4B5563]"
                 >
-                  Latest developments in the proposed electoral reform bill and
-                  its implications...
+                Linear helps streamline software projects, sprints, tasks, and bug tracking. Here’s how to get...
                 </p>
               </div>
               <div class="flex items-center gap-2">
                 <button
                   class="bg-[#F9F5FF] text-[#6941C6] text-[14px] font-medium rounded-2xl py-[2px] px-[10px] transition-all duration-200 hover:bg-[#7F56D9] hover:text-white"
                 >
-                  Electoral
+                  Design
                 </button>
                 <button
                   class="bg-[#FDF2FA] text-[#C11574] rounded-2xl text-[14px] font-medium py-[2px] px-[10px] transition-all duration-200 hover:bg-[#C11574] hover:text-white"
                 >
-                  Reform
+                  Research
                 </button>
               </div>
             </div>
@@ -172,43 +163,38 @@
           >
             <img
               class="xl:w-[48%] h-[200px] object-cover rounded-lg transition-transform duration-300 hover:transform hover:scale-105"
-              src="../assets/asset-3.png"
-              alt="State Elections"
+              src="../assets/asset4.png"
+              alt="software project"
             />
             <div class="flex flex-col gap-6">
               <div class="flex flex-col gap-3">
                 <small class="font-semibold text-[#6941C6]"
-                  >Babajide Sanwo • 18 Jan 2024</small
+                  >Lana Steiner • 18 Jan 2022</small
                 >
                 <div class="flex items-center justify-between">
                   <h2
                     class="text-[#101828] font-semibold text-xl xl:text-2xl transition-colors duration-200 hover:text-[#7F56D9]"
                   >
-                    State Elections Update
+                  Building your API Stack
                   </h2>
-                  <img
-                    class="md:hidden transition-transform duration-200 hover:rotate-180"
-                    src="../assets/wrap.png"
-                    alt="wrap image"
-                  />
+          
                 </div>
                 <p
                   class="text-[#667085] transition-colors duration-200 hover:text-[#4B5563]"
                 >
-                  Analysis of recent state elections and their impact on
-                  national politics...
+                The rise of RESTful APIs has been met by a rise in tools for creating, testing, and manag...
                 </p>
               </div>
               <div class="flex items-center gap-2">
                 <button
                   class="bg-[#ECFDF3] text-[#027A48] text-[14px] font-medium rounded-2xl py-[2px] px-[10px] transition-all duration-200 hover:bg-[#027A48] hover:text-white"
                 >
-                  Elections
+                  Design
                 </button>
                 <button
                   class="bg-[#FDF2FA] text-[#C11574] rounded-2xl text-[14px] font-medium py-[2px] px-[10px] transition-all duration-200 hover:bg-[#C11574] hover:text-white"
                 >
-                  Analysis
+                  Research
                 </button>
               </div>
             </div>
@@ -224,7 +210,7 @@
       <h2
         class="font-semibold text-[24px] text-[#101828] transition-colors duration-200 hover:text-[#000]"
       >
-        All Political Updates
+      All blog posts
       </h2>
       <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-12 w-full">
         <div
@@ -248,11 +234,6 @@
                 >
                   {{ post.title }}
                 </h2>
-                <img
-                  class="transition-transform duration-200 hover:rotate-180"
-                  src="../assets/wrap.png"
-                  alt="wrap image"
-                />
               </div>
               <p
                 class="text-[#667085] transition-colors duration-200 hover:text-[#4B5563]"
@@ -288,7 +269,6 @@
       class="border-[#EAECF0] border-t-[1px] py-3 px-4 md:px-0 md:py-0 md:pt-5 flex justify-between items-center"
     >
       <div
-        @click="previousPage"
         class="flex gap-2 text-[#667085] text-[14px] items-center font-medium cursor-pointer transition-all duration-200 hover:text-[#7F56D9]"
       >
         <img
@@ -299,41 +279,32 @@
         <small class="hidden md:block">Previous</small>
       </div>
       <div class="hidden md:flex gap-[2px]">
-        <template v-for="n in 10" :key="n">
-          <div
-            v-if="n <= 3 || n >= 8 || n === count"
-            :class="[
-              'rounded-[8px]',
-              'w-10',
-              'h-10',
-              'flex',
-              'justify-center',
-              'items-center',
-              'text-sm',
-              'text-[#7F56D9]',
-              'cursor-pointer',
-              'transition-all',
-              'duration-200',
-              'hover:bg-[#F9F5FF]',
-              { 'bg-[#F9F5FF]': count === n },
-            ]"
-            @click="count = n"
-          >
-            {{ n }}
+        <div class="rounded-[8px] w-10 h-10 flex justify-center items-center text-sm text-[#7F56D9] cursor-pointer transition-all duration-200 hover:bg-[#F9F5FF]">
+            1
           </div>
-          <div
-            v-else-if="n === 4"
-            class="rounded-[8px] w-10 h-10 flex justify-center items-center text-sm text-[#7F56D9]"
-          >
+          <div class="rounded-[8px] w-10 h-10 flex justify-center items-center text-sm text-[#7F56D9] cursor-pointer transition-all duration-200 hover:bg-[#F9F5FF]">
+            2
+          </div>
+          <div class="rounded-[8px] w-10 h-10 flex justify-center items-center text-sm text-[#7F56D9] cursor-pointer transition-all duration-200 hover:bg-[#F9F5FF]">
+            3
+          </div>
+          <div class="rounded-[8px] w-10 h-10 flex justify-center items-center text-sm text-[#7F56D9] cursor-pointer transition-all duration-200 hover:bg-[#F9F5FF]">
             ...
           </div>
-        </template>
+          <div class="rounded-[8px] w-10 h-10 flex justify-center items-center text-sm text-[#7F56D9] cursor-pointer transition-all duration-200 hover:bg-[#F9F5FF]">
+            8
+          </div>
+          <div class="rounded-[8px] w-10 h-10 flex justify-center items-center text-sm text-[#7F56D9] cursor-pointer transition-all duration-200 hover:bg-[#F9F5FF]">
+            9
+          </div>
+          <div class="rounded-[8px] w-10 h-10 flex justify-center items-center text-sm text-[#7F56D9] cursor-pointer transition-all duration-200 hover:bg-[#F9F5FF]">
+            10
+          </div>
       </div>
       <div class="font-medium md:hidden text-sm text-[#344054]">
-        Page {{ count }} of 10
+        Page 1 of 10
       </div>
       <div
-        @click="nextPage"
         class="flex gap-2 text-[#667085] text-[14px] font-medium items-center cursor-pointer transition-all duration-200 hover:text-[#7F56D9]"
       >
         <small class="hidden md:block">Next</small>
@@ -353,84 +324,67 @@ import { ref } from "vue";
 export default {
   name: "HomePage",
   setup() {
-    const email = ref("");
     const allBlogs = ref([
       {
-        image: require("@/assets/asset-4.png"),
-        subtitle: "Adebayo Johnson • 17 Jan 2024",
-        title: "National Assembly Budget Debate",
-        news: "Inside look at the heated debates surrounding the new national budget proposals",
-        tags: ["Budget", "Legislature"],
+        image: require("@/assets/asset5.png"),
+        subtitle: "Alec Whitten • 17 Jan 2022",
+        title: "Bill Walsh leadership lessons",
+        news: "Like to know the secrets of transforming a 2-14 team into a 3x Super Bowl winning Dynasty?",
+        tags: ["Leadership", "Management"],
       },
       {
-        image: require("@/assets/asset-5.png"),
-        subtitle: "Folake Adeleke • 16 Jan 2024",
-        title: "State Governors Forum",
-        news: "Key decisions from the latest governors' forum meeting on security and economy",
-        tags: ["Governance", "Security", "Economy"],
+        image: require("@/assets/asset6.png"),
+        subtitle: "Demi WIlkinson • 16 Jan 2022",
+        title: "PM mental models",
+        news: "Mental models are simple expressions of complex processes or relationships.",
+        tags: ["Product", "Research", "Frameworks"],
       },
       {
-        image: require("@/assets/asset-6.png"),
-        subtitle: "Ibrahim Musa • 15 Jan 2024",
-        title: "Anti-Corruption Campaign",
-        news: "New measures implemented by EFCC to combat corruption in public offices",
-        tags: ["Anti-corruption", "Policy"],
+        image: require("@/assets/asset7.png"),
+        subtitle: "Candice Wu • 15 Jan 2022",
+        title: "What is Wireframing?",
+        news: "Introduction to Wireframing and its Principles. Learn from the best in the industry.",
+        tags: ["Design", "Research"],
       },
       {
-        image: require("@/assets/asset-7.png"),
-        subtitle: "Ngozi Okafor • 14 Jan 2024",
-        title: "Political Party Alignments",
-        news: "Recent political party mergers and their implications for future elections",
-        tags: ["Politics", "Parties"],
+        image: require("@/assets/asset8.png"),
+        subtitle: "Natali Craig • 14 Jan 2022",
+        title: "How collaboration makes us better designers",
+        news: "Collaboration can make our teams stronger, and our individual designs better.",
+        tags: ["Design", "Research"],
       },
       {
-        image: require("@/assets/asset-8.png"),
-        subtitle: "Yusuf Ahmed • 13 Jan 2024",
-        title: "Local Government Reforms",
-        news: "Proposed reforms to strengthen local government administration",
-        tags: ["Local Government", "Reform"],
+        image: require("@/assets/asset9.png"),
+        subtitle: "Drew Cano • 13 Jan 2022",
+        title: "Our top 10 Javascript frameworks to use",
+        news: "JavaScript frameworks make development easy with extensive features and functionalities",
+        tags: ["Software", "Tools" , "Saas"],
       },
       {
-        image: require("@/assets/asset-9.png"),
-        subtitle: "Aisha Bukar • 12 Jan 2024",
-        title: "Youth in Politics Initiative",
-        news: "New programs to encourage youth participation in Nigerian politics",
-        tags: ["Youth", "Politics"],
+        image: require("@/assets/asset10.png"),
+        subtitle: "Orlando Diggs • 12 Jan 2022",
+        title: "Podcast: Creating a better CX Community",
+        news: "Starting a community doesn’t need to be complicated, but how do you get started?",
+        tags: ["Podcast", "Customer sucess"],
       },
     ]);
-    let count = ref(1);
 
-    const emailInputValue = () => {
-      console.log(email.value);
-    };
 
-    const previousPage = () => {
-      if (count.value > 1) {
-        count.value--;
-      }
-    };
-
-    const nextPage = () => {
-      if (count.value < 10) {
-        count.value++;
-      }
-    };
-
+  
     const getTagClasses = (tag) => {
       const baseClasses = "hover:text-white";
       const tagMap = {
-        Budget: "bg-[#F9F5FF] text-[#6941C6] hover:bg-[#6941C6]",
-        Legislature: "bg-[#EEF4FF] text-[#3538CD] hover:bg-[#3538CD]",
-        Governance: "bg-[#ECFDF3] text-[#027A48] hover:bg-[#027A48]",
-        Security: "bg-[#FDF2FA] text-[#C11574] hover:bg-[#C11574]",
-        Economy: "bg-[#FFF6ED] text-[#C4320A] hover:bg-[#C4320A]",
-        "Anti-corruption": "bg-[#F9F5FF] text-[#6941C6] hover:bg-[#6941C6]",
-        Policy: "bg-[#EEF4FF] text-[#3538CD] hover:bg-[#3538CD]",
-        Politics: "bg-[#ECFDF3] text-[#027A48] hover:bg-[#027A48]",
-        Parties: "bg-[#FDF2FA] text-[#C11574] hover:bg-[#C11574]",
-        "Local Government": "bg-[#F8F9FC] text-[#363F72] hover:bg-[#363F72]",
-        Reform: "bg-[#FFF6ED] text-[#C4320A] hover:bg-[#C4320A]",
-        Youth: "bg-[#F9F5FF] text-[#6941C6] hover:bg-[#6941C6]",
+        Leadership: "bg-[#F9F5FF] text-[#6941C6] hover:bg-[#6941C6]",
+        Management: "bg-[#EEF4FF] text-[#3538CD] hover:bg-[#3538CD]",
+        Product: "bg-[#ECFDF3] text-[#027A48] hover:bg-[#027A48]",
+        Research: "bg-[#FDF2FA] text-[#C11574] hover:bg-[#C11574]",
+        Frameworks: "bg-[#FFF6ED] text-[#C4320A] hover:bg-[#C4320A]",
+        Design: "bg-[#F9F5FF] text-[#6941C6] hover:bg-[#6941C6]",
+        Softwares: "bg-[#ECFDF3] text-[#027A48] hover:bg-[#027A48]",
+        Tools: "bg-[#FDF2FA] text-[#C11574] hover:bg-[#C11574]",
+        Saas: "bg-[#F8F9FC] text-[#363F72] hover:bg-[#363F72]",
+        Podcast: "bg-[#FFF6ED] text-[#C4320A] hover:bg-[#C4320A]",
+        "Customer service": "bg-[#F9F5FF] text-[#6941C6] hover:bg-[#6941C6]",
       };
       return `${
         tagMap[tag] || "bg-[#F9F5FF] text-[#6941C6] hover:bg-[#6941C6]"
@@ -438,12 +392,7 @@ export default {
     };
 
     return {
-      email,
-      previousPage,
-      emailInputValue,
       allBlogs,
-      count,
-      nextPage,
       getTagClasses,
     };
   },
