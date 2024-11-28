@@ -243,18 +243,7 @@
             </div>
             <div class="flex items-center gap-2 flex-wrap">
               <button
-                v-for="(tag, tagIndex) in post.tags"
-                :key="tagIndex"
-                :class="[
-                  'text-[14px]',
-                  'font-medium',
-                  'rounded-2xl',
-                  'py-[2px]',
-                  'px-[10px]',
-                  'transition-all',
-                  'duration-200',
-                  getTagClasses(tag),
-                ]"
+               
               >
                 {{ tag }}
               </button>
